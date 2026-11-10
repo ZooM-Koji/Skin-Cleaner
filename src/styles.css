@@ -180,3 +180,11 @@ details.item .body { padding: 4px 0 12px; }
 .big { font-size: 1.6rem; font-weight: 700; font-variant-numeric: tabular-nums; }
 .datefield { position: relative; display: flex; align-items: center; min-height: 44px; padding: 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); font-variant-numeric: tabular-nums; }
 .datefield input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; margin: 0; }
+.steprow { margin-bottom: 8px; flex-wrap: nowrap; align-items: center; gap: 6px; }
+.steprow input { flex: 1; min-width: 0; }
+.steprow .btn { padding: 8px 12px; }
+.btn:disabled { opacity: 0.35; }
+.filebtn { display: inline-flex; align-items: center; cursor: pointer; }
+details.item summary input[type='checkbox'] { width: 22px; height: 22px; accent-color: var(--accent); flex: none; }
+details.item:first-of-type { border-top: 0; }
+.card > .btn { margin-top: 10px; }
